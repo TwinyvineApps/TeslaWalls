@@ -26,8 +26,57 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view.
+	
 }
+
+-(IBAction)postToTwitter:(id)sender{
+    
+    if ([SLComposeViewController isAvailableForServiceType:SLServiceTypeTwitter])
+    {
+        SLComposeViewController *tweety = [SLComposeViewController
+                                               composeViewControllerForServiceType:SLServiceTypeTwitter];
+        [tweety setInitialText:@"I love the Tesla Model S!!"];
+        
+        [self presentViewController:tweety animated:YES completion:nil];
+    }
+    else {
+        UIAlertView *alertView = [[UIAlertView alloc]
+                                  initWithTitle:@"Sorry"
+                                  message:@"You can't post to Twitter now, make sure your device has an internet connection and you have your Twitter account set up in your device settings"
+                                  delegate:self
+                                  cancelButtonTitle:@"OK"
+                                  otherButtonTitles:nil];
+        [alertView show];
+    }
+    
+}
+
+
+
+-(IBAction)postToFacebook:(id)sender{
+    
+    if([SLComposeViewController isAvailableForServiceType:SLServiceTypeFacebook]) {
+        SLComposeViewController *fbcontroller = [SLComposeViewController composeViewControllerForServiceType:SLServiceTypeFacebook];
+        
+        [fbcontroller setInitialText:@"I love the Tesla Model S!!!"];
+        
+        [fbcontroller addURL:[NSURL URLWithString:@"http://www.teslamotors.com"]];
+        [fbcontroller addImage:[UIImage imageNamed:@"tesla_flag.png"]];
+        [self presentViewController:fbcontroller animated:YES completion:Nil];
+    }
+    else {
+        UIAlertView *alertView = [[UIAlertView alloc]
+                                  initWithTitle:@"Sorry"
+                                  message:@"You can't post to facebook now, make sure your device has an internet connection and you have your facebook account set up in your device settings"
+                                  delegate:self
+                                  cancelButtonTitle:@"OK"
+                                  otherButtonTitles:nil];
+        [alertView show];
+    }
+    
+   
+}
+
 
 - (void)didReceiveMemoryWarning
 {

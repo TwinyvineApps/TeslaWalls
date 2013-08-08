@@ -18,11 +18,26 @@
 		4F3DA66717B311720021EC69 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F3DA66617B311720021EC69 /* Default-568h@2x.png */; };
 		4F3DA66A17B311720021EC69 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F3DA66817B311720021EC69 /* MainStoryboard.storyboard */; };
 		4F3DA66D17B311720021EC69 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F3DA66C17B311720021EC69 /* FirstViewController.m */; };
-		4F3DA66F17B311720021EC69 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F3DA66E17B311720021EC69 /* first.png */; };
-		4F3DA67117B311720021EC69 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F3DA67017B311720021EC69 /* first@2x.png */; };
 		4F3DA67417B311720021EC69 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F3DA67317B311720021EC69 /* SecondViewController.m */; };
-		4F3DA67617B311720021EC69 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F3DA67517B311720021EC69 /* second.png */; };
-		4F3DA67817B311720021EC69 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F3DA67717B311720021EC69 /* second@2x.png */; };
+		4F3DA68517B337840021EC69 /* TeslaCover.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4F3DA68417B337840021EC69 /* TeslaCover.jpg */; };
+		4F3DA68817B339B10021EC69 /* TeslaLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F3DA68617B339B10021EC69 /* TeslaLogo.png */; };
+		4F3DA68917B339B10021EC69 /* TeslaLogo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F3DA68717B339B10021EC69 /* TeslaLogo@2x.png */; };
+		4F3DA68C17B33C7C0021EC69 /* TeslaPics.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F3DA68A17B33C7C0021EC69 /* TeslaPics.png */; };
+		4F3DA68D17B33C7C0021EC69 /* TeslaPics@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F3DA68B17B33C7C0021EC69 /* TeslaPics@2x.png */; };
+		4F3DA68F17B33DC90021EC69 /* button-explore.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F3DA68E17B33DC90021EC69 /* button-explore.png */; };
+		4F3DA69117B33E9B0021EC69 /* button-save.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F3DA69017B33E9B0021EC69 /* button-save.png */; };
+		4F3DA69317B34C370021EC69 /* icon-114.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F3DA69217B34C360021EC69 /* icon-114.png */; };
+		4F3DA69B17B34C8F0021EC69 /* icon-57.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F3DA69A17B34C8F0021EC69 /* icon-57.png */; };
+		4F3DA6A217B34F650021EC69 /* share.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F3DA6A017B34F650021EC69 /* share.png */; };
+		4F3DA6A317B34F650021EC69 /* share@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F3DA6A117B34F650021EC69 /* share@2x.png */; };
+		4F3DA6A617B34F9A0021EC69 /* ShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F3DA6A517B34F9A0021EC69 /* ShareViewController.m */; };
+		4F3DA6A817B3502D0021EC69 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F3DA6A717B3502D0021EC69 /* Social.framework */; };
+		4F3DA6AA17B350C10021EC69 /* tesla_flag.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F3DA6A917B350C10021EC69 /* tesla_flag.png */; };
+		4F3DA6AD17B3554F0021EC69 /* button-facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F3DA6AB17B3554F0021EC69 /* button-facebook.png */; };
+		4F3DA6AE17B3554F0021EC69 /* button-tweet.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F3DA6AC17B3554F0021EC69 /* button-tweet.png */; };
+		4F3DA6B017B3573C0021EC69 /* SharePage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4F3DA6AF17B3573C0021EC69 /* SharePage.jpg */; };
+		4F3DA6B717B3E4700021EC69 /* ParticleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F3DA6B617B3E4700021EC69 /* ParticleView.m */; };
+		4F3DA6BF17B3EF610021EC69 /* redbeam.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F3DA6BE17B3EF610021EC69 /* redbeam.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,12 +57,32 @@
 		4F3DA66917B311720021EC69 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		4F3DA66B17B311720021EC69 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
 		4F3DA66C17B311720021EC69 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		4F3DA66E17B311720021EC69 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
-		4F3DA67017B311720021EC69 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
 		4F3DA67217B311720021EC69 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		4F3DA67317B311720021EC69 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
-		4F3DA67517B311720021EC69 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
-		4F3DA67717B311720021EC69 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		4F3DA68417B337840021EC69 /* TeslaCover.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TeslaCover.jpg; sourceTree = "<group>"; };
+		4F3DA68617B339B10021EC69 /* TeslaLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TeslaLogo.png; sourceTree = "<group>"; };
+		4F3DA68717B339B10021EC69 /* TeslaLogo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TeslaLogo@2x.png"; sourceTree = "<group>"; };
+		4F3DA68A17B33C7C0021EC69 /* TeslaPics.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TeslaPics.png; sourceTree = "<group>"; };
+		4F3DA68B17B33C7C0021EC69 /* TeslaPics@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TeslaPics@2x.png"; sourceTree = "<group>"; };
+		4F3DA68E17B33DC90021EC69 /* button-explore.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-explore.png"; sourceTree = "<group>"; };
+		4F3DA69017B33E9B0021EC69 /* button-save.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-save.png"; sourceTree = "<group>"; };
+		4F3DA69217B34C360021EC69 /* icon-114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-114.png"; sourceTree = "<group>"; };
+		4F3DA69617B34C4F0021EC69 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		4F3DA69817B34C590021EC69 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		4F3DA69A17B34C8F0021EC69 /* icon-57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-57.png"; sourceTree = "<group>"; };
+		4F3DA6A017B34F650021EC69 /* share.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = share.png; sourceTree = "<group>"; };
+		4F3DA6A117B34F650021EC69 /* share@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share@2x.png"; sourceTree = "<group>"; };
+		4F3DA6A417B34F9A0021EC69 /* ShareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareViewController.h; sourceTree = "<group>"; };
+		4F3DA6A517B34F9A0021EC69 /* ShareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareViewController.m; sourceTree = "<group>"; };
+		4F3DA6A717B3502D0021EC69 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		4F3DA6A917B350C10021EC69 /* tesla_flag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tesla_flag.png; sourceTree = "<group>"; };
+		4F3DA6AB17B3554F0021EC69 /* button-facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-facebook.png"; sourceTree = "<group>"; };
+		4F3DA6AC17B3554F0021EC69 /* button-tweet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-tweet.png"; sourceTree = "<group>"; };
+		4F3DA6AF17B3573C0021EC69 /* SharePage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SharePage.jpg; sourceTree = "<group>"; };
+		4F3DA6B117B35E6B0021EC69 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		4F3DA6B517B3E4700021EC69 /* ParticleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ParticleView.h; path = ../ParticleView.h; sourceTree = "<group>"; };
+		4F3DA6B617B3E4700021EC69 /* ParticleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ParticleView.m; path = ../ParticleView.m; sourceTree = "<group>"; };
+		4F3DA6BE17B3EF610021EC69 /* redbeam.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redbeam.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F3DA6A817B3502D0021EC69 /* Social.framework in Frameworks */,
 				4F3DA65117B311710021EC69 /* UIKit.framework in Frameworks */,
 				4F3DA65317B311710021EC69 /* Foundation.framework in Frameworks */,
 				4F3DA65517B311710021EC69 /* CoreGraphics.framework in Frameworks */,
@@ -67,6 +103,11 @@
 		4F3DA64417B311710021EC69 = {
 			isa = PBXGroup;
 			children = (
+				4F3DA69A17B34C8F0021EC69 /* icon-57.png */,
+				4F3DA69817B34C590021EC69 /* Default-568h@2x.png */,
+				4F3DA69617B34C4F0021EC69 /* Default@2x.png */,
+				4F3DA6B117B35E6B0021EC69 /* Default.png */,
+				4F3DA69217B34C360021EC69 /* icon-114.png */,
 				4F3DA65617B311710021EC69 /* TeslaWalls */,
 				4F3DA64F17B311710021EC69 /* Frameworks */,
 				4F3DA64E17B311710021EC69 /* Products */,
@@ -84,6 +125,7 @@
 		4F3DA64F17B311710021EC69 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4F3DA6A717B3502D0021EC69 /* Social.framework */,
 				4F3DA65017B311710021EC69 /* UIKit.framework */,
 				4F3DA65217B311710021EC69 /* Foundation.framework */,
 				4F3DA65417B311710021EC69 /* CoreGraphics.framework */,
@@ -99,12 +141,12 @@
 				4F3DA66817B311720021EC69 /* MainStoryboard.storyboard */,
 				4F3DA66B17B311720021EC69 /* FirstViewController.h */,
 				4F3DA66C17B311720021EC69 /* FirstViewController.m */,
-				4F3DA66E17B311720021EC69 /* first.png */,
-				4F3DA67017B311720021EC69 /* first@2x.png */,
 				4F3DA67217B311720021EC69 /* SecondViewController.h */,
 				4F3DA67317B311720021EC69 /* SecondViewController.m */,
-				4F3DA67517B311720021EC69 /* second.png */,
-				4F3DA67717B311720021EC69 /* second@2x.png */,
+				4F3DA6A417B34F9A0021EC69 /* ShareViewController.h */,
+				4F3DA6A517B34F9A0021EC69 /* ShareViewController.m */,
+				4F3DA6B517B3E4700021EC69 /* ParticleView.h */,
+				4F3DA6B617B3E4700021EC69 /* ParticleView.m */,
 				4F3DA65717B311710021EC69 /* Supporting Files */,
 			);
 			path = TeslaWalls;
@@ -113,15 +155,37 @@
 		4F3DA65717B311710021EC69 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4F3DA6C017B3F7060021EC69 /* Images */,
 				4F3DA65817B311720021EC69 /* TeslaWalls-Info.plist */,
 				4F3DA65917B311720021EC69 /* InfoPlist.strings */,
 				4F3DA65C17B311720021EC69 /* main.m */,
 				4F3DA65E17B311720021EC69 /* TeslaWalls-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4F3DA6C017B3F7060021EC69 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				4F3DA6BE17B3EF610021EC69 /* redbeam.png */,
+				4F3DA6AB17B3554F0021EC69 /* button-facebook.png */,
+				4F3DA6AC17B3554F0021EC69 /* button-tweet.png */,
+				4F3DA6AF17B3573C0021EC69 /* SharePage.jpg */,
+				4F3DA6A917B350C10021EC69 /* tesla_flag.png */,
+				4F3DA6A017B34F650021EC69 /* share.png */,
+				4F3DA6A117B34F650021EC69 /* share@2x.png */,
+				4F3DA68A17B33C7C0021EC69 /* TeslaPics.png */,
+				4F3DA68B17B33C7C0021EC69 /* TeslaPics@2x.png */,
+				4F3DA68617B339B10021EC69 /* TeslaLogo.png */,
+				4F3DA68717B339B10021EC69 /* TeslaLogo@2x.png */,
+				4F3DA68417B337840021EC69 /* TeslaCover.jpg */,
+				4F3DA69017B33E9B0021EC69 /* button-save.png */,
+				4F3DA68E17B33DC90021EC69 /* button-explore.png */,
 				4F3DA66217B311720021EC69 /* Default.png */,
 				4F3DA66417B311720021EC69 /* Default@2x.png */,
 				4F3DA66617B311720021EC69 /* Default-568h@2x.png */,
 			);
-			name = "Supporting Files";
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,10 +244,22 @@
 				4F3DA66517B311720021EC69 /* Default@2x.png in Resources */,
 				4F3DA66717B311720021EC69 /* Default-568h@2x.png in Resources */,
 				4F3DA66A17B311720021EC69 /* MainStoryboard.storyboard in Resources */,
-				4F3DA66F17B311720021EC69 /* first.png in Resources */,
-				4F3DA67117B311720021EC69 /* first@2x.png in Resources */,
-				4F3DA67617B311720021EC69 /* second.png in Resources */,
-				4F3DA67817B311720021EC69 /* second@2x.png in Resources */,
+				4F3DA68517B337840021EC69 /* TeslaCover.jpg in Resources */,
+				4F3DA68817B339B10021EC69 /* TeslaLogo.png in Resources */,
+				4F3DA68917B339B10021EC69 /* TeslaLogo@2x.png in Resources */,
+				4F3DA68C17B33C7C0021EC69 /* TeslaPics.png in Resources */,
+				4F3DA68D17B33C7C0021EC69 /* TeslaPics@2x.png in Resources */,
+				4F3DA68F17B33DC90021EC69 /* button-explore.png in Resources */,
+				4F3DA69117B33E9B0021EC69 /* button-save.png in Resources */,
+				4F3DA69317B34C370021EC69 /* icon-114.png in Resources */,
+				4F3DA69B17B34C8F0021EC69 /* icon-57.png in Resources */,
+				4F3DA6A217B34F650021EC69 /* share.png in Resources */,
+				4F3DA6A317B34F650021EC69 /* share@2x.png in Resources */,
+				4F3DA6AA17B350C10021EC69 /* tesla_flag.png in Resources */,
+				4F3DA6AD17B3554F0021EC69 /* button-facebook.png in Resources */,
+				4F3DA6AE17B3554F0021EC69 /* button-tweet.png in Resources */,
+				4F3DA6B017B3573C0021EC69 /* SharePage.jpg in Resources */,
+				4F3DA6BF17B3EF610021EC69 /* redbeam.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,6 +274,8 @@
 				4F3DA66117B311720021EC69 /* AppDelegate.m in Sources */,
 				4F3DA66D17B311720021EC69 /* FirstViewController.m in Sources */,
 				4F3DA67417B311720021EC69 /* SecondViewController.m in Sources */,
+				4F3DA6A617B34F9A0021EC69 /* ShareViewController.m in Sources */,
+				4F3DA6B717B3E4700021EC69 /* ParticleView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,6 +398,7 @@
 				4F3DA67D17B311720021EC69 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

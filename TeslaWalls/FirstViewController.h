@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ParticleView.h"
 
 @interface FirstViewController : UIViewController
-
+{
+    ParticleView *partView;
+}
 @end

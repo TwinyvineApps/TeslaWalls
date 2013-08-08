@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ParticleView : UIView
+@interface ParticleView : UIView{
+    UIImageView *beam;
+}
 
 @end

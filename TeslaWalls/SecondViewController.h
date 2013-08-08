@@ -8,6 +8,27 @@
 
 #import <UIKit/UIKit.h>
 
+
 @interface SecondViewController : UIViewController
+{
+    IBOutlet UIImageView *teslaWall;
+    
+    UIImage *display;
+    
+    int rand, counttime;
+    
+    NSArray *teslaArray;
+    
+    IBOutlet UIActivityIndicatorView *loadIndicator;
+    
+    NSTimer *connectionTimer;
+
+    IBOutlet UIButton *exploreBtn, *saveBtn;
+}
+
+-(IBAction)explore:(id)sender;
+
+-(IBAction)savetoPhotos:(id)sender;
+
 
 @end
